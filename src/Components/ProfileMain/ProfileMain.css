@@ -1,0 +1,34 @@
+
+
+.cover{
+    position: relative;
+    height: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://pbs.twimg.com/profile_banners/44196397/1576183471/1500x500");
+}
+.profile-img{
+    width: 160px;
+    height: 160px;
+    border: 4px solid white;
+    border-radius: 50%;
+    left: 24px;
+    position: absolute;
+    bottom: -80px;
+
+}
+.follow-btn-container{
+    padding: 24px;
+
+}
+.follow-btn{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    height: 36px;
+    padding: 4px 16px;
+    border-radius: 34px;
+
+
+}
+   

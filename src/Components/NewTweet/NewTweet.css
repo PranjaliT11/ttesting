@@ -1,0 +1,10 @@
+
+.tweet-btn{
+    margin-top: 24px;
+    width: 180px;
+    padding: 4px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 25px;
+}

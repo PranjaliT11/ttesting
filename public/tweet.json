@@ -1,0 +1,46 @@
+[{
+    "authorName": "Elon Musk",
+    "authorImg": "https://images.news18.com/ibnlive/uploads/2022/08/irfan-pti-16610785434x3.jpg",
+    "text":"Tesl will make some merch buyable with doge & see how it goes",
+    "handle":"@elonmusk",
+    "likes":"56.5k",
+    "retweets":"100k",
+    "comments":"5k"
+},
+{
+    "authorName": "Bill Gates",
+    "authorImg": "https://pbs.twimg.com/profile_images/1564398871996174336/M-hffw5a_400x400.jpg",
+    "text":"Africa has always been at the heart of our foundation's mission. Today, we are announcing our commitment of $7 billion over the next 4 years for the development of more breakthrough innovations in health and agriculture across the continent.",
+    
+    "handle":"@billgates",
+    "likes":"100.5k",
+    "retweets":"170k",
+    "comments":"20k"
+},
+{
+    "authorName": "Elon Musk",
+    "authorImg": "https://images.news18.com/ibnlive/uploads/2022/08/irfan-pti-16610785434x3.jpg",
+    "text":"I hope that even my worst critics remain on Twitter because that is what free speech means",
+    "handle":"@elonmusk",
+    "likes":"1.5k",
+    "retweets":"10k",
+    "comments":"20.1k"
+},
+{
+    "authorName": "Bill Gates",
+    "authorImg": "https://pbs.twimg.com/profile_images/1564398871996174336/M-hffw5a_400x400.jpg",
+    "text":"Many people don't know that Mike was a champion for and leader on PEPFAR  the Presidents Emergency Plan for AIDS Relief which has saved millions of lives. It's one of the best things this country has ever done. It will be a lasting part of his legacy. ",
+    "handle":"@billgates",
+    "likes":"22.5k",
+    "retweets":"200k",
+    "comments":"18k"
+},
+{
+    "authorName": "Virat kohli",
+    "authorImg": "https://pbs.twimg.com/profile_images/1562753500726976514/EPSUNyR3_400x400.jpg",
+    "text":"Thank you to all our fans who turned up in huge numbers throughout to support us in the stadiums. Always feel proud to wear this jersey and represent our country 🇮🇳",
+    "handle":"@viratkohli",
+    "likes":"45.6k",
+    "retweets":"100k",
+    "comments":"30k"
+}]

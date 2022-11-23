@@ -1,0 +1,17 @@
+
+.trendingMain{
+    padding: 12px;
+    margin: 6px 0;
+}
+
+p{
+    margin-bottom: 3px !important;
+}
+
+.header_small{
+    font-size: small;
+}
+.text{
+    font-size: large;
+    font-weight: bold;
+}
