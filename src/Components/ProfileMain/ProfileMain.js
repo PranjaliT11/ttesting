@@ -1,7 +1,25 @@
-
+import React from 'react';
+import Tweet from '../Feed/Tweet/Tweet';
 import './ProfileMain.css';
+import {useEffect} from 'react';
+import {useState} from 'react';
+
  
 function ProfileMain(){
+
+    const [ptweets, setPtweets]=useState([]);
+    useEffect(()=>{
+        fetch("elonmusk.json").then(
+            (resp)=>{
+                return resp.json();
+            }
+        ).then(
+            (resp)=>{
+                console.log(resp);
+                setPtweets(resp);
+            }
+        );
+    },[]); 
       
     return(
     
@@ -16,12 +34,37 @@ function ProfileMain(){
 
                 </div>
                 </div>
-               
-            </div>
+                <ul>
+                    <li>
+                        <a href="#">Tweets</a>
+                    </li>
+                    <li>
+                        <a href="#">Tweets & Replies</a>
+                    </li>
+                    <li>
+                        <a href="#">Media</a>
+                    </li>
+                    <li>
+                        <a href="#">Likes</a>
+                    </li>
+                </ul>
+            {
         
+            ptweets.map(ptweet=>
+                <div>
+                    <Tweet data={ptweet}/>
+                    <hr/>
+                </div>
+                
+                )
+            }
+        
+      </div>
 
-    )
+
+    );
+        }
      
 
-}
+
 export default ProfileMain;

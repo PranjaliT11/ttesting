@@ -1,29 +1,35 @@
 
-
 .tweet-box{
     display: flex;
-    padding: 12px;
+    justify-content: flex-start;
+}
+.tweet-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+
+
+
+.tweet-text{
+    font-size: smaller;
 }
 .left-box{
     width:9%;
 }
 .content-box{
-    width:87%;
-    padding: 0 12px 12px 12px;
-}
-.tweet-footer{
-    font-size: smaller;
-    margin-top: 12px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 10px;
+    width:91%;    
 }
 img{
-    border-radius: 50%;
-    width: 55px;
+    border-radius: 48%;
+    
 }
-.tweet-text{
-    font-size: smaller;
+.header{
+    display: flex;
+    justify-content: flex-start;
 }
-.blue-tick{
-    color: blue;
-}
+
+  

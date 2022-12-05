@@ -1,5 +1,5 @@
 import './Feed.css';
-import Trending from './Trending/Trending';
+import Trending from  '../Trending/Trending';
 import {useEffect,useState} from "react";
 import Tweet from '../Tweet/Tweet';
 

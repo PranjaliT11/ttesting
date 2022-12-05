@@ -31,4 +31,19 @@
 
 
 }
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0 !important;/*by default ul has some padding. so we removed it.*/
+    list-style-type: none;
+    width:100%;
+    top:250px;
+}
+ul a{
+    color: rgb(83, 100, 113);
+    text-decoration: none !important;
+}
+.ptweets{
+    top:300px;
+}
    
